@@ -1,22 +1,55 @@
-body {background-image:url(../imagenes/background1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;}
-
+body {
+    background-color: white;
+    background-image:url(../imagenes/background1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: 50% 50%;
+}
+    
 .titulo {-webkit-text-stroke: 3.5px black;
     text-decoration: underline; 
     color: goldenrod;
     text-align: center;
     font-family:Verdana ;
-    font-size: 500%;}
-  
-img.tira {width: 25%; height: 25%;
-    border: 5px solid #000}    
-
-.receta1 {-webkit-text-stroke: 2px black;
-    text-decoration: underline;
-    color: green;
-    font-family: 'Courier New';
     font-size: 250%;}
+  
+img.tira {width: 60%; height: 60%;
+    border: 5px solid #000}
+    
+nav {position: static; background-color: black; text-align: center; width: 100%;}    
+
+nav ul {list-style: none; margin: 0;padding: 0;}
+
+nav ul li {display: inline-block;}
+
+nav ul li a {
+    color: green;
+    text-decoration:none;
+    font-family: 'Courier New'; 
+    font-size: 120%; 
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px; 
+    padding-top: 1px; 
+    padding-bottom: 1px;}
+
+section {width: 50%; height: 50%;float:left; margin-top: 40px; font-family: Arial, Helvetica, sans-serif; background-color: aliceblue;}
+
+aside{width: 50%; height: 50%; float: left; margin-top: 40px; text-align: right;}
+
+footer {clear: both;}
+
+footer ul {list-style: none; margin: 0; padding: 0;}
+
+footer ul li {display: inline-block;}
+
+footer ul li a{display: block; padding-left: 40px; padding-right: 40px;padding-top: 100px;}
+
+img.redes {width: 75px; height: 75px;}
+
+.flotante {width: 50px; height: 50px;
+    position: fixed;bottom: 20px;right: 20px;}
 
 
 
